@@ -1,7 +1,53 @@
-<html>
-
-
-<body style="text-align: center;">
-   IT is coming...
-</body>
-</html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>Madelyn Li's Web Site</title>
+<meta charset="iso-8859-1">
+<link rel="stylesheet" href="styles/layout.css" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
+<script src="scripts/jquery-1.8.2.min.js"></script>
+<script src="scripts/jquery-defaultvalue.js"></script>
+<script src="scripts/jquery-browsercheck.js"></script>
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="styles/ie.css" type="text/css">
+<script src="scripts/ie/html5shiv.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<script>
+$(function () {
+    $("#nav-placeholder").load("includes/menu.html");
+    $("#footer-placeholder").load("includes/footer.html");
+    $("#sidebar-placeholder").load("includes/sidebar.html");
+});
+</script>
+<div id="nav-placeholder"> </div>
+<!-- content -->
+<div class="wrapper row3">
+  <div id="container" class="clear">
+    <!-- content body -->
+    <div id="content">
+      <section id="info" class="clear">
+        <article class="one_quarter">
+          
+          <img class="imgl" src="images/ml.jpeg" alt="" style="width:auto;height:300px;">
+        </article>
+        <article class="two_quarter">
+          <h8></h8>
+          
+          <h4>Hey there, I'm Madelyn Li! </h4>
+          
+          <p>I am a senior in Mira Costa High School.  I have an avid interest in the arts and media arts, and always makes an effort to learn a lot about different media arts, especially in the interactive media design and development. </p> 
+          <p>I'm passionate about designing efficient, effortless, and empowering experiences.</p>
+        </article>
+        </article><br />     
+       
+      </section>
+    </div>
+   
+  </div>
+</div>
+<!-- Footer -->
+  </div>
+</div>
+<div id="footer-placeholder"> </div> 
