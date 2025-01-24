@@ -59,7 +59,7 @@ div.wrapper{display:block; width:100%; text-align:left;}
 h1, h2, h3, h5, h6{margin:0; padding:0; font-size:24px; font-weight:normal; line-height:normal; color:#666666; background-color:#FFFFFF;}
 h7{margin:0; padding:0; font-size:14px; font-weight:normal; line-height:normal; color:#000000; background-color:#FFFFFF;}
 h8{margin:0; padding:0; font-size:18px; font-weight:normal; line-height:normal; color:#666666; background-color:#FFFFFF;}
-h4{margin:0; padding:0; font-size:24px; font-weight:normal; line-height:normal; color:#666666;}
+h4{margin:0; padding:0; font-size:20px; font-weight:normal; line-height:normal; color:#666666;}
 
 address{font-style:normal;}
 
@@ -98,9 +98,34 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 #container .last{margin:0;}
 #container .more{text-align:right;}
 
+.comntainer img {
+  margin: 100px;
+  cursor: zoom-in;
+  transition: transform 2s ease;
+}
+input[type=checkbox] {
+  display: none;
+}
+input[type=checkbox]:checked ~ label > img {
+  transform: scale(1.5);
+  cursor: zoom-out;
+  border: 10px solid skyblue;
+}
+
+img {
+    transition:transform 0.25s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.65);
+    transform:scale(1.65);
+}
 /* ------Content-----*/
 
-#container #content{float:left; width:1040px; margin-bottom:0;}
+#container #content{float:left; width:1240px; margin-bottom:0;}
+#container #threeDdesign_content{float:left; width:800px; margin-bottom:0;}
+#container #graphicdesign_content{float:left; width:1040px; margin-bottom:0;}
+
 
 /* ------Comments-----*/
 
