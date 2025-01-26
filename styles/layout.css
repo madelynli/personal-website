@@ -9,7 +9,7 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 @import url(navi.css);
 @import url(tables.css);
 @import url(homepage.css);
-@import url(gallery.css);
+/*@import url(gallery.css);*/
 
 html{overflow-y:scroll;}
 
@@ -31,6 +31,9 @@ img{margin:0; padding:0; border:none; line-height:normal; vertical-align:middle;
 .imgholder, .imgl, .imgr{padding:4px; border:1px solid #D6D6D6; text-align:center;}
 .imgl{float:left; margin:0 15px 15px 0; clear:left;}
 .imgr{float:right; margin:0 0 15px 15px; clear:right;}
+
+.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#57ADC4; border-color:#57ADC4;}
+.btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
 /*----------------------------------------------HTML 5 Overrides-------------------------------------*/
 
@@ -222,15 +225,17 @@ table, th, tr, td {
   margin: 5px;
   background-color: #ECECEC;
 }
-
+/*
 #gallery{
-  width: 900px;
+  width: 1200px;
 }
+#gallery li{margin-bottom:20px; margin-top:20px; margin-left:20px; margin-right:20px;}
 .block{
   display: inline-block;
-  width: 200px;
-  height: 80px;
-  margin: 5px;
+  width: 250px;
+  
+  
+  
   background-color: #cccccc;
 }
 .bigger{
@@ -239,6 +244,30 @@ table, th, tr, td {
 .larger{
   height: 250px;
   width: 240px;
+}
+*/
+div.gallery {
+  margin: 15px;
+  border: 1px solid #ccc;
+  float: left;
+  
+  background-color: #c5c5c5;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+/*
+div.gallery img {
+  width: 250px;
+  height: auto;
+}
+*/
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
 }
 
 .arrow {
@@ -253,6 +282,12 @@ table, th, tr, td {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
+
+/* Gallery
+--------------------------------------------------------------------------------------------------------------- */
+/*#gallery{display:block; width:100%; margin-bottom:50px;}
+#gallery figure figcaption{display:block; width:100%; clear:both;}
+#gallery li{margin-bottom:30px;}*/
 
 /*----------------------------------------------Footer-------------------------------------*/
 
