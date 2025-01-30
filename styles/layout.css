@@ -74,7 +74,8 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 .one_quarter, .two_quarter, .three_quarter{display:block; float:left; margin:0 0 0 20px;}
 .one_quarter{width:225px;}
 .two_quarter{width:470px;}
-.three_quarter{width:600px;}
+.two_quarter2{width:420px;}
+.three_quarter{width:796px;}
 
 .one_third, .two_third{display:block; float:left; margin:0 0 0 30px;}
 .one_third{width:300px;}
