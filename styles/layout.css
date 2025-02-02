@@ -86,7 +86,7 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 
 /*----------------------------------------------Header-------------------------------------*/
 
-#header{padding:42px 0 50px;}
+#header{padding:20px 0 25px;}
 
 #header hgroup{float:left;}
 #header hgroup h1, #header hgroup h2{display:inline; font-weight:normal; font-style:normal; text-transform:none;}
@@ -117,14 +117,7 @@ input[type=checkbox]:checked ~ label > img {
   border: 10px solid skyblue;
 }
 
-img {
-    transition:transform 0.25s ease;
-}
 
-img:hover {
-    -webkit-transform:scale(1.65);
-    transform:scale(1.65);
-}
 /* ------Content-----*/
 
 #container #content{float:left; width:1240px; margin-bottom:0;}
@@ -258,6 +251,15 @@ div.gallery {
 
 div.gallery:hover {
   border: 1px solid #777;
+}
+
+.gallery img {
+    transition:transform 0.25s ease;
+}
+
+.gallery img:hover {
+    -webkit-transform:scale(2);
+    transform:scale(2);
 }
 
 /*
